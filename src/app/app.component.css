@@ -1,0 +1,58 @@
+.automation-panel {
+  width: 90%;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  border-radius: 2px;
+  background: white;
+  margin: 0 auto;
+
+}
+.automation-panel .automation-content {
+  border-radius: 5px;
+}
+.automation-content,
+.perform-actions {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.automation-content .card-wrapper,
+.perform-actions .card-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  height: 200px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.selected{
+  border: 4px solid black;
+}
+.predicted{
+  border: 4px solid green;
+}
+.action-buttons{
+  display: flex;
+  justify-content: right;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+}
+.action-buttons .save-button button{
+  padding: 10px 20px;
+  background-color: rgb(62, 128, 241);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.selected-option{
+  background: #e0e8f5;
+}
